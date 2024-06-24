@@ -11,7 +11,7 @@ spec:
     path: k8/app/overlay/dev/
   destination:
     server: https://kubernetes.default.svc
-    namespace: coco-namespace
+    namespace: eagle
   syncPolicy:
     automated:
       prune: true
