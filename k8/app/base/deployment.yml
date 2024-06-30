@@ -23,7 +23,7 @@ spec:
         - name: dockerhub-credentials
       containers:
         - name: va-container
-          image: shadowhub/raz:latest
+          image: docker.io/shadowhub/raz:latest
           ports:
             - containerPort: 8000 
           resources: 
